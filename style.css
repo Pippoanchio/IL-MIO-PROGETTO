@@ -1,0 +1,89 @@
+body{
+  background-image:url(/immagini/Cerulean.jpg);
+  background-size: cover;
+  margin:0;
+  padding: 0;
+  color: white;
+}
+
+.box{
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+header{
+  text-align: -webkit-center;
+}
+
+header>img{
+  width: 200px;
+  margin-top: 140px;
+}
+
+header>h2{
+  font-size: 30px;
+  color: cerulean;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+nav>div{
+  text-align: -webkit-center;
+  background-color: cerulean;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+div>button{
+  font-size: 10px;
+}
+
+div>h3{
+  display: inline-block;
+  margin: 5px;
+}
+
+.location{
+  display:block;
+  font-size: 15px;
+}
+
+.arrow:before{
+  content: "\21A6";
+}
+
+.battery-Giovanni{
+  display: block;
+  background-color: orange;
+  height: 20px;
+  width: 45%;
+  border-radius: 5px;
+}
+
+.battery-Luca{
+  display: block;
+  background-color: cerulean;
+  height: 20px;
+  width: 65%;
+  border-radius: 5px;
+}
+
+.battery-Andrea{
+  display: block;
+  background-color: red;
+  height: 20px;
+  width: 15%;
+  border-radius: 5px;
+}
